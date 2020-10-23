@@ -1,0 +1,36 @@
+
+
+Problem Description
+A manufacturer needs to refine several raw oils and blend them together to produce a given food product that can be sold. The raw oils needed can be divided into two categories:
+
+Category	Oil
+Vegetable oils:	VEG 1
+ 	VEG 2
+Non-vegetable oils:	OIL 1
+ 	OIL2
+ 	OIL 3
+The manufacturer can choose to buy raw oils for the current month and/or buy them on the futures market for delivery in a subsequent month. Prices for immediate deliver and in the futures market are given below in $/ton:
+
+Month	VEG 1	VEG 2	OIL 1	OIL 2	OIL 3
+January	110	120	130	110	115
+February	130	130	110	90	115
+March	110	140	130	100	95
+April	120	110	120	120	125
+May	100	120	150	110	105
+June	90	100	140	80	135
+There are a number of additional factors that must be taken into account. These include:
+
+The final food product sells for $150 per ton.
+Each category of oil (vegetable and non-vegetable) needs to be refined on a different production line.
+There is limited refinement capacity such that in any given month a maximum of 200 tons of vegetable oils and 250 tons of non-vegetable oils can be refined.
+Also, there is no waste in the refinement process, so the sum of the raw oils refined will equal the amount of refined oils available.
+The cost of refining the oils may be ignored.
+In addition to the refining limits above, there are limits to the amount of raw oils that can be stored for future use, and there is a cost associated with each ton of oil stored. The limit is 1000 tons of each raw oil and the storage cost is $5 per ton per month. The manufacturer can not store the produced food product or the refined oils. The final food product must have a hardness between three and six on a given hardness scale. For the purposes of the model, hardness blends linearly and the hardness of each raw oil is:
+
+Oils	Hardness
+VEG 1	8.8
+VEG 2	6.1
+OIL 1	2.0
+OIL2	4.2
+OIL 3	5.0
+At the start of January there are 500 tons of each type of raw oil in storage. For the purpose of the model, this should also be the level of raw oils in storage at the end of June. Given the above information, what monthly buying and manufacturing decisions should be made in order to maximize profit? This problem is based on a larger model built for the margarine producer Van den Bergs and Jurgens and discussed in Williams and Redwood (1974).

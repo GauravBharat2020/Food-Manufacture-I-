@@ -1,0 +1,68 @@
+Academic license - for non-commercial use only
+Gurobi Optimizer version 9.0.3 build v9.0.3rc0 (win64)
+Optimize a model with 59 rows, 96 columns and 222 nonzeros
+Model fingerprint: 0x923d92d9
+Coefficient statistics:
+  Matrix range     [1e+00, 9e+00]
+  Objective range  [5e+00, 2e+02]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e+02, 5e+02]
+Presolve removed 34 rows and 45 columns
+Presolve time: 0.08s
+Presolved: 25 rows, 51 columns, 89 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    8.6875000e+05   7.125000e+02   0.000000e+00      0s
+      22    5.7525000e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 22 iterations and 0.18 seconds
+Optimal objective  5.752500000e+05
+Food[January] 1003.333333
+Food[February] 1003.333333
+Food[March] 1003.333333
+Food[April] 1003.333333
+Food[May] 1003.333333
+Food[June] 1003.333333
+Buy[March,VEG1] 300.000000
+Buy[March,OIL3] 1500.000000
+Buy[May,VEG1] 200.000000
+Buy[June,VEG1] 700.000000
+Use[January,VEG1] 200.000000
+Use[January,OIL3] 250.000000
+Use[February,VEG1] 200.000000
+Use[February,OIL3] 250.000000
+Use[March,VEG1] 200.000000
+Use[March,OIL3] 250.000000
+Use[April,VEG1] 200.000000
+Use[April,OIL3] 250.000000
+Use[May,VEG1] 200.000000
+Use[May,OIL3] 250.000000
+Use[June,VEG1] 200.000000
+Use[June,OIL3] 250.000000
+Store[January,VEG1] 300.000000
+Store[January,VEG2] 500.000000
+Store[January,OIL1] 500.000000
+Store[January,OIL2] 500.000000
+Store[January,OIL3] 250.000000
+Store[February,VEG1] 100.000000
+Store[February,VEG2] 500.000000
+Store[February,OIL1] 500.000000
+Store[February,OIL2] 500.000000
+Store[March,VEG1] 200.000000
+Store[March,VEG2] 500.000000
+Store[March,OIL1] 500.000000
+Store[March,OIL2] 500.000000
+Store[March,OIL3] 1250.000000
+Store[April,VEG2] 500.000000
+Store[April,OIL1] 500.000000
+Store[April,OIL2] 500.000000
+Store[April,OIL3] 1000.000000
+Store[May,VEG2] 500.000000
+Store[May,OIL1] 500.000000
+Store[May,OIL2] 500.000000
+Store[May,OIL3] 750.000000
+Store[June,VEG1] 500.000000
+Store[June,VEG2] 500.000000
+Store[June,OIL1] 500.000000
+Store[June,OIL2] 500.000000
+Store[June,OIL3] 500.000000
